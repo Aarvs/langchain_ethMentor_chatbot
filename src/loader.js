@@ -5,7 +5,6 @@ import {PDFLoader} from "@langchain/community/document_loaders/fs/pdf"
 import { RecursiveCharacterTextSplitter } from "langchain/text_splitter"
 import { SupabaseVectorStore } from "@langchain/community/vectorstores/supabase"
 import { OpenAIEmbeddings } from "@langchain/openai"
-import {createClient} from '@supabase/supabase-js'
 
 try {
     const loader = new PDFLoader("src/documents/eth_white_paper.pdf");

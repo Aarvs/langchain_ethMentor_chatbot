@@ -1,8 +1,12 @@
+import React, {useState} from "react"
+import axios from "axios"
+import Chatbot from "./components/Chatbot";
+
 function App() {
   return (
-    <>
-      <h1>hello</h1>
-    </>
+    <div className="App">
+      <Chatbot/>
+    </div>
   )
 }
 

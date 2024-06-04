@@ -10,10 +10,14 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@langchain/community": "^0.2.1",
+    "@langchain/community": "^0.2.4",
     "@langchain/openai": "^0.0.33",
     "@supabase/supabase-js": "^2.43.2",
+    "axios": "^1.7.2",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
     "dotenv": "^16.4.5",
+    "express": "^4.19.2",
     "langchain": "^0.2.0",
     "pdf-parse": "^1.1.1",
     "react": "^18.2.0",
